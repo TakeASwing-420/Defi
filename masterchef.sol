@@ -31,7 +31,7 @@ dev@                       General Liquidity Pool Token types(3)   [ for ETH/DAI
 
 ! So, in this case, the liquidity pool token would be the token representing ownership in the ETH-DAI liquidity pool on a DEX. This token is often referred to as something like "UNI-V2" or "SUSHI-LP", depending on the platform. it is neither ETH nor DAI .
 */
-        IERC20 lpToken; //! But in this tutorial, for simplicity it is assumed that the lptoken is same as the staking token. 
+        IERC20 lpToken; //! But in this case, for simplicity it is assumed that the lptoken is same as the staking token. 
         uint256 allocPoint;//* In this case, simply the priority value for a particular pool over other pools. The more points, the better is to invest in this pool.
         uint256 lastRewardBlock;//* The algorithm basically uses some calculation based on no. of in-between blocks after the last and current transcation.
         uint256 rewardTokenPerShare;  //* The reward rate of a certain pool at that particular moment to any user who is unstaking tokens. After that, it will update itself.
