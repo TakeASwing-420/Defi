@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-//* In this tutorial, there are two sets of tokens for trading:
+//* In this case, there are two sets of tokens for trading:
 //* one is MyToken1 and another is MyToken2..but you can create more such ERC20 tokens 
 
 //! No need for using safemath...I have shown although in some cases. You can of course use normal arithmetic operators.
